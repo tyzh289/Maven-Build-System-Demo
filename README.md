@@ -197,3 +197,4 @@ open target/site/jacoco/index.html   # View detailed coverage in browser
 | Manually build jars with `jar` command | `mvn package` |
 | "Works on my machine" | Reproducible builds everywhere |
 | No standard project structure | Convention over configuration |
+trigger github actions
