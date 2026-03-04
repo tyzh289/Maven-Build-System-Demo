@@ -1,9 +1,12 @@
-[![CI](https://github.com/tyzh289/Maven-Build-System-Demo/actions/workflows/ci.yml/badge.svg)](https://github.com/tyzh289/Maven-Build-System-Demo/actions/workflows/ci.yml)
 # Word Frequency Analyzer — Maven Build System Demo
 
 <!-- ── CI BADGES ─────────────────────────────────────────────────────── -->
 <!-- These badges are auto-updated by the CI pipeline on every push.     -->
 <!-- Replace YOUR_USERNAME/YOUR_REPO with your actual GitHub path.       -->
+
+![Build Status](https://github.com/tyzh289/Maven-Build-System-Demo/actions/workflows/ci.yml/badge.svg)
+![Coverage](https://github.com/tyzh289/Maven-Build-System-Demo/raw/gh-pages/.badges/jacoco.svg)
+![Branches](https://github.com/tyzh289/Maven-Build-System-Demo/raw/gh-pages/.badges/branches.svg)
 
 Hi
 A simple Java project that demonstrates core Maven (build system) concepts and CI/CD with GitHub Actions.
@@ -194,4 +197,3 @@ open target/site/jacoco/index.html   # View detailed coverage in browser
 | Manually build jars with `jar` command | `mvn package` |
 | "Works on my machine" | Reproducible builds everywhere |
 | No standard project structure | Convention over configuration |
-trigger github actions
